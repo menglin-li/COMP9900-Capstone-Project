@@ -1,0 +1,49 @@
+.messagepage-first-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.messagepage-second-layout {
+  overflow: hidden;
+}
+
+.messagepage-sider {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  height: 100%;
+}
+
+.messagepage-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.messagepage-menu-container {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.messagepage-menu-container .ant-menu-item .ant-menu-title-content {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.messagepage-dropdown-button {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: inherit;
+  padding: 0;
+}
+
+.messagepage-create-button-container {
+  padding: 10px;
+  border-top: 1px solid #f0f0f0;
+  margin-top: auto;
+}

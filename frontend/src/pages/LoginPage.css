@@ -1,0 +1,72 @@
+/* LoginPage.css */
+/* .login-container {
+    height: 100vh;
+  } */
+
+.text-container {
+  background: linear-gradient(to right, #fdd835, #fbc02d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-box {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  color: #fbc02d;
+  font-size: 60px;
+  font-weight: 400;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  font-size: 60px;
+}
+
+.space-y-30 {
+  margin-top: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex: 1;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.link-button:hover {
+  text-decoration: none;
+}
+
+/* LoginPage.css */
+.forgot-password-row {
+  margin-top: -20px; /* 调整负值来靠近上方的表单元素 */
+}
+
+.forgot-password-btn {
+  padding: 0;
+}

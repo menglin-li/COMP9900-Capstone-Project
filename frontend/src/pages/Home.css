@@ -1,0 +1,70 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.carousel .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .slick-slide div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.carousel .slick-slide img {
+  max-width: 100%;
+}
+
+.large-text {
+  font-size: 1.7em; 
+}
+
+
+@keyframes backgroundFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-background {
+  background: linear-gradient(45deg, 
+    #ff9a9e, 
+    #fecfef, 
+    #feada6, 
+    #64f3ea,
+    #e0b832, 
+    #fda085, 
+    #f3c1e5, 
+    #dd7edd, 
+    #9875e4, 
+    #f8c5b7, 
+    #7fa4e9,  
+    #7fa4e9,  
+    #ff9a9e, 
+    #fecfef,
+    #8fd3f4,
+    #91eae4);
+  background-size: 500% 500%;
+  animation: backgroundFlow 17s ease infinite;
+}

@@ -1,0 +1,53 @@
+.custom-header {
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 0 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.header-left-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 64px;
+}
+
+.header-logo,
+.header-unsw-logo {
+  height: 50px;
+  margin-right: 30px;
+}
+
+.notification-container:hover {
+  cursor: pointer;
+}
+
+.user-profile-container:hover {
+  cursor: pointer;
+}
+
+.messagepage-container {
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.notification-container {
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.notification-container,
+.user-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile-container {
+  margin-top: 3px;
+}

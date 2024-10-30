@@ -1,0 +1,18 @@
+.client-first-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.client-second-layout {
+  overflow: hidden;
+}
+
+.client-sider-menu {
+  margin-top: 20;
+  border-right: 0;
+}
+
+.client-sider,
+.client-content {
+  overflow: auto;
+}

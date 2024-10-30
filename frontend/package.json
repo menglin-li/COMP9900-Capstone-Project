@@ -1,0 +1,53 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.3.7",
+    "antd": "^5.19.2",
+    "chart.js": "^4.4.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.7.5",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.9.11",
+    "babel-plugin-istanbul": "^6.0.0",
+    "cypress": "^12.5.0",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:legacy": "node start-legacy.js",
+    "build": "react-scripts build",
+    "test": "npx cypress open",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "coverage": "nyc report --reporter=html"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "start-legacy.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

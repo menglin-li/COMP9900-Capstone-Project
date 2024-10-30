@@ -1,0 +1,47 @@
+.message-area-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh - 64px;
+}
+
+.message-area-header,
+.message-area-footer {
+  flex: none;
+}
+
+.members-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.own-avatar {
+  border: 1px solid #1890ff;
+  box-shadow: 0 0 8px rgba(24, 144, 255, 0.6);
+}
+
+.own-name {
+  font-weight: bold;
+}
+
+.me-tag {
+  background-color: #1890ff;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  margin-left: 8px;
+}
+
+.member-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-area-content {
+  padding: 0 24px;
+  overflow-y: auto;
+  flex: 1;
+}

@@ -1,0 +1,18 @@
+.tutor-first-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.tutor-second-layout {
+  overflow: hidden;
+}
+
+.tutor-sider-menu {
+  margin-top: 20;
+  border-right: 0;
+}
+
+.tutor-sider,
+.tutor-content {
+  overflow: auto;
+}

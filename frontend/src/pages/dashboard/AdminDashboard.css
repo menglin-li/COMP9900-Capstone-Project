@@ -1,0 +1,22 @@
+.admin-first-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.admin-second-layout {
+  overflow: hidden;
+}
+
+.admin-sider-menu {
+  margin-top: 20;
+  border-right: 0;
+}
+
+.admin-sider,
+.admin-content {
+  overflow: auto;
+}
+.custom-statistic-title .ant-statistic-title {
+  color: #333333;
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.coord-first-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.coord-second-layout {
+  overflow: hidden;
+}
+
+.coord-sider-menu {
+  margin-top: 20;
+  border-right: 0;
+}
+
+.coord-sider,
+.coord-content {
+  overflow: auto;
+}

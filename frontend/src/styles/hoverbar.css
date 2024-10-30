@@ -1,0 +1,29 @@
+/* Width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; /* Optional: add height for the horizontal scrollbar */
+  background: transparent; /* Initial background is transparent */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f9f9f9; /* Lighter color for the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: rgba(204, 204, 204, 0.5); /* 50% transparent #ccc */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 3px solid transparent; /* Transparent border to avoid content being covered by thumb edges */
+}
+
+/* Thumb hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bbb; /* Color of the thumb when hovered */
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background: #ccc; /* Color of the thumb when active or hovered */
+}

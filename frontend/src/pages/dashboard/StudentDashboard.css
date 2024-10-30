@@ -1,0 +1,17 @@
+.student-first-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.student-second-layout {
+  overflow: hidden;
+}
+
+.student-sider-menu {
+  margin-top: 20;
+}
+
+.student-sider,
+.student-content {
+  overflow: auto;
+}

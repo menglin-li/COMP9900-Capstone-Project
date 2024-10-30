@@ -1,0 +1,13 @@
+.ant-select-dropdown {
+  min-width: 300px;
+}
+.ant-form-item-label > label {
+  white-space: normal;
+  display: block;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}

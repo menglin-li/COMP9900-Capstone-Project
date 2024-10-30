@@ -1,0 +1,28 @@
+# Node modules directory
+node_modules/
+
+# npm debug log
+npm-debug.log
+
+# Docker configuration files
+.dockerignore
+
+# Environment variables file
+
+
+# Lock files
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# Other potential files to ignore
+coverage/
+dist/
+build/
+
+# macOS specific
+.DS_Store
+
+
